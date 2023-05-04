@@ -1,0 +1,632 @@
+body {
+   margin: 0;
+   background-color: #D9D9D9;
+}
+
+.title_image {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  white-space: pre;
+}
+
+.logo_title {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  /*margin-left: 10px;*/
+  margin-top: 16px;
+  /*flex: 6;*/
+}
+
+.drop_down_list_title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 29px;
+}
+
+.drop_down_list {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  margin-top: 10px;
+}
+
+/* Drop down list - background color, text color and border color */
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+ background-color: #FFFFFF;
+ color: black;
+}
+
+.Select-control{
+ border: 2px solid black;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+ color: black;
+}
+
+/* width of drop down list and page scrollbar */
+::-webkit-scrollbar {
+ width: 10px !important;
+ display: block !important;
+}
+
+/* background color of drop down list and page scrollbar */
+::-webkit-scrollbar-track {
+ background-color: #a6a6a6 !important;
+ display: block !important;
+}
+
+/* background color of drop down list and page scrollbar (handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #404040;
+}
+
+/* background color of drop down list and page scrollbar (handle on hover) */
+::-webkit-scrollbar-thumb:hover {
+ background-color: #666666 !important;
+}
+
+.title_drop_down_list {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.title_and_drop_down_list {
+  display: flex;
+  flex-wrap: wrap;
+  /*position: fixed;*/
+  justify-content: center;
+  gap: 30px;
+  top: 0;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.format_text {
+  display: flex;
+  flex-direction: row;
+  color: #404040;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Calibri;
+}
+
+.accounts_receivable1 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 30px;
+}
+.accounts_receivable2 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 100px;
+}
+
+.accounts_receivable_column {
+ display: flex;
+ flex-direction: column;
+ row-gap: 5px;
+}
+
+.accounts_payable1 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 30px;
+}
+.accounts_payable2 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 100px;
+}
+
+.accounts_payable_column {
+ display: flex;
+ flex-direction: column;
+ row-gap: 5px;
+}
+
+.receivable_payable_column {
+ display: flex;
+ flex-direction: column;
+ row-gap: 25px;
+}
+
+.income1 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 30px;
+}
+.income2 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 100px;
+}
+
+.income_column {
+ display: flex;
+ flex-direction: column;
+ row-gap: 5px;
+}
+
+.expenses1 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 30px;
+}
+.expenses2 {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 100px;
+}
+
+.expenses_column {
+ display: flex;
+ flex-direction: column;
+ row-gap: 5px;
+}
+
+.income_expenses_column {
+ display: flex;
+ flex-direction: column;
+ row-gap: 25px;
+}
+
+.first_row {
+ display: flex;
+ flex-direction: row;
+ margin-top: 30px;
+ gap: 200px;
+ /*margin-left: 200px;*/
+}
+
+.first_left_circle {
+ display: flex;
+ flex-direction: row;
+ background-color: #D9D9D9;
+ width: 250px;
+ height: 250px;
+ border-radius: 50%;
+}
+
+.donut_chart_size {
+   display: flex;
+   flex-direction: row;
+   margin-left: -475px;
+   height: 250px;
+   margin-top: 25px;
+}
+
+.text_and_chart {
+   display: flex;
+   flex-direction: row;
+   /*margin-left: -240px;*/
+}
+
+.second_left_circle {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ margin-top: -220px;
+ margin-left: 25px;
+}
+
+.first_second_left_column {
+ display: flex;
+ flex-direction: column;
+}
+
+.left_circle_row {
+ display: flex;
+ flex-direction: row;
+ /*margin-top: -290px;
+ margin-left: 375px;*/
+ margin-top: 40px;
+ margin-left: -425px;
+}
+
+.first_right_circle {
+ display: flex;
+ flex-direction: row;
+ background-color: #D9D9D9;
+ width: 250px;
+ height: 250px;
+ border-radius: 50%;
+}
+
+.second_right_circle {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ margin-top: -220px;
+ margin-left: 25px;
+}
+
+.first_second_right_column {
+ display: flex;
+ flex-direction: column;
+}
+
+.right_circle_row {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ /*margin-left: 800px;
+ margin-top: -230px;*/
+ margin-left: -78px;
+ margin-top: 45px;
+}
+
+.income_statement {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 400px;
+ height: 30px;
+}
+
+.income_statement_title {
+   display: flex;
+   flex-direction: row;
+   color: #404040;
+   font-size: 15px;
+   font-family: Calibri;
+   white-space: pre;
+}
+
+.income_statement1 {
+ display: flex;
+ flex-direction: row;
+ /*margin: 0 auto;*/
+}
+
+.income_statement_indicator_row1 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 130px;
+ margin-top: 8px;
+}
+
+.income_statement_indicator_row2 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 70px;
+}
+
+.income_statement_indicator_row3 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 105px;
+ margin-top: -25px;
+}
+
+.income_statement_indicator_row4 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 23px;
+}
+
+.income_statement_indicator_row5 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 40px;
+ margin-top: -25px;
+}
+
+.income_statement_indicator_row6 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 154px;
+}
+
+.income_statement_indicator_row7 {
+ display: flex;
+ flex-direction: row;
+ column-gap: 128px;
+}
+
+.net_profit_column {
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+}
+
+.bottom_border {
+ display: flex;
+ flex-direction: row;
+ width: 160px;
+ margin-top: -10px;
+ margin-left: 170px;
+}
+
+.in_state_column {
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+}
+
+.income_statement_multiple_values {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 400px;
+ height: 200px;
+}
+
+.income_statement_column1 {
+ display: flex;
+ flex-direction: column;
+ row-gap: 5px;
+}
+
+.bar_chart_size {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 400px;
+ height: 250px;
+ margin-top: -60px;
+}
+
+.line_chart_size {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 805px;
+ height: 150px;
+ margin-top: 5px;
+}
+
+.combination_chart_size {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 400px;
+ height: 255px;
+ margin-top: -100px;
+}
+
+.net_profit {
+ display: flex;
+ flex-direction: row;
+ background-color: #FFFFFF;
+ width: 400px;
+ height: 23px;
+}
+
+.net_profit1 {
+ display: flex;
+ flex-direction: column;
+ row-gap: 2px;
+ margin-top: 30px;
+ margin-left: -230px;
+}
+
+.net_profit2 {
+ display: flex;
+ flex-direction: column;
+ row-gap: 2px;
+ margin-top: 30px;
+ margin-left: -230px;
+}
+
+.income_statement_row {
+ display: flex;
+ flex-direction: row;
+ /*margin-left: 775px;
+ margin-top: -230px;*/
+}
+
+.f_row {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.last_row {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+ column-gap: 12px;
+}
+
+.numeric_value {
+ display: flex;
+ flex-direction: row;
+ color: #000000;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 0 auto;
+ font-family: Calibri;
+ margin-top: 7px;
+}
+
+.indicator1 {
+ display: flex;
+ flex-direction: row;
+ color: #00B050;
+ font-size: 14px;
+ font-family: Calibri;
+}
+
+.indicator2 {
+ display: flex;
+ flex-direction: row;
+ color: #FF3399;
+ font-size: 14px;
+ font-family: Calibri;
+}
+
+.value_indicator {
+  display: flex;
+  flex-direction: row;
+  margin-top: -2px;
+}
+
+.value_indicator_row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0 auto;
+}
+
+.vs_previous_month {
+ display: flex;
+ flex-direction: row;
+ color: #7F7F7F;
+ font-size: 14px;
+ margin: 0 auto;
+ font-family: Calibri;
+ margin-top: -14px;
+}
+
+.vs_p_m_column {
+ display: flex;
+ flex-direction: column;
+}
+
+.indicator_column {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.donut_chart_title {
+   display: flex;
+   flex-direction: row;
+   color: #404040;
+   font-size: 16px;
+   margin: 0 auto;
+   font-family: Calibri;
+   /*margin-top: -14px;*/
+}
+
+.donut_chart_title1 {
+   display: flex;
+   flex-direction: row;
+   color: #404040;
+   font-size: 16px;
+   margin: 0 auto;
+   font-family: Calibri;
+   /*margin-top: -14px;*/
+   margin-top: -10px;
+}
+
+.net_profit_margin_percentage {
+   display: flex;
+   flex-direction: row;
+   color: #B258D3;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 0 auto;
+   font-family: Calibri;
+   margin-top: -14px;
+}
+
+.net_profit_margin_percentage1 {
+   display: flex;
+   flex-direction: row;
+   color: #63A0CC;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 0 auto;
+   font-family: Calibri;
+   margin-top: -14px;
+}
+
+.net_profit_margin_percentage2 {
+   display: flex;
+   flex-direction: row;
+   color: #8AC4A7;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 0 auto;
+   font-family: Calibri;
+   margin-top: -14px;
+}
+
+.title_and_percentage {
+   display: flex;
+   flex-direction: column;
+}
+
+.inside_donut_chart_column {
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-left: 45px;
+}
+
+.monthly_value {
+   display: flex;
+   flex-direction: row;
+   color: #404040;
+   font-size: 15px;
+   font-family: Calibri;
+}
+
+.monthly_value1 {
+   display: flex;
+   flex-direction: row;
+   color: #FF0000;
+   font-size: 15px;
+   font-family: Calibri;
+}
+
+/*.income_statement_title_and_monthly_value {
+   display: flex;
+   flex-direction: row;
+   column-gap: 200px;
+}
+
+.income_statement_title_and_monthly_value1 {
+   display: flex;
+   flex-direction: row;
+   column-gap: 90px;
+}*/
+
+.value_indicator_row1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+
+.income_statement_monthly_row {
+   display: flex;
+   flex-direction: row;
+   column-gap: 50px;
+}
